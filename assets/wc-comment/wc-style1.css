@@ -1,0 +1,90 @@
+.woocommerce {
+    input#submit {
+        background-color: #0c70ff!important;
+        color: #fff!important;
+        padding: 10px 15px!important;
+        border-radius: 10px!important;
+        border: none!important;
+        font-family: unset!important;
+        font-weight: normal!important;
+    }
+    
+    textarea#comment {
+        border: 1px solid #cfcfcf;
+        border-radius: 15px;
+        padding: 10px;
+        outline: none !important;
+    }
+    
+    span.required {
+        color: red;
+    }
+    p.stars a {
+        font-size: 20px;
+        transition: all 0.3s linear;
+        color: #ffc20c;
+    }
+    
+    p.stars a:hover {transform: scale(1.2);}
+    
+    p.stars.selected span {
+        max-width: fit-content;
+        padding: 10px;
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        border: 1px solid #fff2cc;
+        border-radius: 15px;
+    }
+    
+    .children .comment-text {
+        background-color: #daecff3b;
+    }
+    
+    .comment-text {
+        padding: 35px 15px 15px 15px!important;
+        background-color: #f7f7f7;
+        border-radius: 15px!important;
+        margin-bottom: 11px!important;
+        border: none!important;
+        margin: 0 0 15px 0 !important;
+    }
+    
+    ol.commentlist {
+        padding: 0;
+    }
+    
+    ul.children {
+        margin: 0!important;
+    }
+    
+    #reviews #comments ol.commentlist li img.avatar {
+        border-radius: 50%;
+        border: 3px solid #d8d8d8;
+        box-sizing: border-box;
+        right: 12px;
+        top: 7px;
+    
+    }
+    
+    p.meta {
+        background-color: #ebf1f9;
+        color: #0d6fff !important;
+        padding: 5px 15px;
+        border-radius: 10px;
+        font-size: 10px !important;
+        max-width: fit-content;
+        margin: 8px 0!important;
+    }
+    
+    .star-rating {
+        margin: 8px 0 !important;
+        color: #ffcf3f;
+    }
+     input {
+        border: 1px solid #cfcfcf;
+        border-radius: 15px;
+        padding: 10px;
+        outline: none !important;
+    }
+    }

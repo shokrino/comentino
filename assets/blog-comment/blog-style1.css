@@ -8,7 +8,7 @@
     display: flex;
     background-color: #007bff30;
     max-width: fit-content;
-    padding: 15px;
+    padding: 8px 15px;
     border-radius: 50px 50px 50px 0;
     color: #0068ff;
 }
@@ -112,7 +112,7 @@ div#respond {
     display: flex;
     background-color: #007bff30;
     max-width: fit-content;
-    padding: 15px;
+    padding: 8px 15px;
     border-radius: 50px 50px 50px 0;
     color: #0068ff;
 }
