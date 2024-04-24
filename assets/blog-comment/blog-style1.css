@@ -1,10 +1,10 @@
-section#comments {
+.comments-area {
     background-color: #fff;
     border-radius: 15px;
     padding: 15px;
 }
-
-.title-comments {
+.comments-area{
+ .title-comments {
     display: flex;
     background-color: #007bff30;
     max-width: fit-content;
@@ -136,7 +136,7 @@ span.required {
     max-width: fit-content;
 }
 
-#comment textarea{
+textarea{
     border: 1px solid #cfcfcf;
     border-radius: 15px;
     padding: 10px;
@@ -152,7 +152,7 @@ span.required {
     font-family: unset;
 }
 
-#comments input {
+input {
     border: 1px solid #cfcfcf;
     border-radius: 15px;
     padding: 10px;
@@ -163,4 +163,5 @@ p.comment-form-cookies-consent {
     display: flex;
     align-items: center;
 	font-size:12px;
+}
 }
