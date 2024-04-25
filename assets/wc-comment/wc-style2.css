@@ -1,0 +1,134 @@
+.woocommerce {
+    input#submit {
+        background-color: #0c70ff!important;
+        color: #fff!important;
+        padding: 5px 15px!important;
+        border-radius: 10px!important;
+        border: none!important;
+        font-family: unset!important;
+        font-weight: normal!important;
+        line-height: normal!important;
+    }
+    
+    textarea#comment {
+        border: 1px solid #cfcfcf;
+        border-radius: 15px;
+        padding: 10px;
+        outline: none !important;
+    }
+    
+    span.required {
+        color: red;
+    }
+    p.stars a {
+        font-size: 20px;
+        transition: all 0.3s linear;
+        color: #ffc20c;
+    }
+    
+    p.stars a:hover {transform: scale(1.2);}
+    
+    p.stars span {
+        max-width: fit-content;
+        padding: 10px;
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        border: 1px solid #fff2cc;
+        border-radius: 15px;
+    }
+    
+    
+    .comment-text {
+        padding: 35px 15px 15px 15px!important;
+        border-radius: 15px!important;
+        margin-bottom: 11px!important;
+        border: 1px solid #cfcfcf!important;
+        margin: 0 0 15px 0 !important;
+        background-color: #f9f9f9;
+    }
+    
+    ol.commentlist {
+        padding: 0;
+    }
+    
+    ul.children {
+        margin: 0!important;
+    }
+    
+    #reviews #comments ol.commentlist li img.avatar {
+            border-radius: 50%;
+            border: 3px solid #d8d8d8;
+            box-sizing: border-box;
+            right: auto;
+    
+    }
+    
+    
+    .star-rating {
+        margin: 8px 0 !important;
+        color: #ffcf3f;
+    }
+     input {
+        border: 1px solid #cfcfcf;
+        border-radius: 15px;
+        padding: 10px;
+        outline: none !important;
+    }
+    
+    
+    
+    .commentlist .review {
+        padding: 0 35px 0 0px!important;
+    }
+    
+    .commentlist .review:after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 2px;
+        right: 5px;
+        background-color: #0c70ff;
+        top: 0;
+    }
+    
+    
+    div.comment_container:not(.children li .comment_container):before  , ul.children:before {
+        content: "";
+        background-color: #fff;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: -4px;
+        top: auto;
+        z-index: 99999;
+        border-radius: 50%;
+        transform: translateY(6px);
+        border: 3px solid #0c70ff
+    }
+    #reviews #comments ol.commentlist li{
+        margin: 0!important;
+    }
+    em.woocommerce-review__verified.verified {
+        position: absolute;
+        top: 0;
+        font-style: normal;
+        color: #0c70ff;
+    }
+    
+    time.woocommerce-review__published-date {
+        position: absolute;
+        top: 0;
+        left: 19px;
+    }
+    
+    span.woocommerce-review__dash {
+        display: none;
+    }
+    
+    ul.children {
+        padding-right: 20px;
+        padding-bottom: 30px;
+    
+    }
+    }
