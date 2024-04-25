@@ -1,0 +1,25 @@
+@font-face {
+    font-display:swap;
+    font-family: 'Shabnam';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/Shabnam-FD.woff') format('woff');
+}
+@font-face {
+    font-display:swap;
+    font-family: 'Shabnam';
+    font-style: normal;
+    font-weight: bold;
+    src: url('./fonts/Shabnam-Bold-FD.woff') format('woff');
+}
+@font-face {
+    font-display:swap;
+    font-family: 'Shabnam';
+    font-style: normal;
+    font-weight: 100;
+    src: url('./fonts/Shabnam-Light-FD.woff') format('woff');
+}
+
+body {
+    font-family: 'Shabnam' !important;
+}

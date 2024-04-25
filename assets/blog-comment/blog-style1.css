@@ -1,10 +1,12 @@
+.comments-area a {
+    text-decoration: none !important;
+}
 .comments-area {
     background-color: #fff;
     border-radius: 15px;
     padding: 15px;
 }
-.comments-area{
- .title-comments {
+.comments-area .title-comments {
     display: flex;
     background-color: #007bff30;
     max-width: fit-content;
@@ -163,5 +165,4 @@ p.comment-form-cookies-consent {
     display: flex;
     align-items: center;
 	font-size:12px;
-}
 }
