@@ -1,0 +1,135 @@
+.woocommerce {
+    input#submit {
+        background-color: #0c70ff!important;
+        color: #fff!important;
+        padding: 5px 15px!important;
+        border-radius: 10px!important;
+        border: none!important;
+        font-family: unset!important;
+        font-weight: normal!important;
+        line-height: normal!important;
+    }
+    
+    textarea#comment {
+        border: 1px solid #cfcfcf;
+        border-radius: 15px;
+        padding: 10px;
+        outline: none !important;
+    }
+    
+    span.required {
+        color: red;
+    }
+    p.stars a {
+        font-size: 20px;
+        transition: all 0.3s linear;
+        color: #ffc20c;
+    }
+    
+    p.stars a:hover {transform: scale(1.2);}
+    
+    p.stars span {
+        max-width: fit-content;
+        padding: 10px;
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        border: 1px solid #fff2cc;
+        border-radius: 15px;
+    }
+    
+    
+    .comment-text {
+        padding: 15px 15px 15px 15px!important;
+        border-radius: 15px!important;
+        margin-bottom: 11px!important;
+        border: 1px solid #ebebeb !important;
+        margin: 0 0 15px 0 !important;
+        background-color: #fbf8fa;
+    
+    }
+    .children .comment-text{
+        background-color: #e2eefc
+    }
+    
+    ol.commentlist {
+        padding: 0;
+    }
+    
+    ul.children {
+        margin: 0!important;
+    }
+    
+    
+    
+    
+    .star-rating {
+        margin: 8px 0 !important;
+        color: #ffcf3f;
+    }
+     input {
+        border: 1px solid #cfcfcf;
+        border-radius: 15px;
+        padding: 10px;
+        outline: none !important;
+    }
+    
+    
+    
+    
+    
+    #reviews #comments ol.commentlist li{
+        margin: 0!important;
+    }
+    
+    
+    
+    ul.children {
+        padding-right: 30px;
+        padding-bottom: 30px;
+    
+    }
+    
+    ul.children:before{
+        content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='277' height='1206' viewBox='0 0 277 1206' fill='none'%3E%3Crect x='236' width='41' height='1206' fill='%23c4c7cb'/%3E%3Crect width='41' height='277' transform='matrix(0 -1 -1 0 277 1206)' fill='%23c4c7cb'/%3E%3C/svg%3E");
+        width: 50px;
+        height: 80px;
+        position: absolute;
+        right: -15px;
+        transform: translatey(-16px);
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 0;
+    }
+    
+    p.meta {
+        max-width: fit-content;
+        margin: 0 0 20px 0!important;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px 45px 10px 10px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    
+    span.woocommerce-review__dash {
+        display: none;
+    }
+    
+    em.woocommerce-review__verified.verified {
+        display: none!important;
+    }
+    
+    time.woocommerce-review__published-date {
+        font-size: 10px;
+    }
+    
+    img.avatar {
+        top: 25px!important;
+        right: 23px!important;
+        border: none!important;
+        border-radius: 5px;
+    }
+    }
