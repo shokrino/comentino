@@ -3,9 +3,8 @@ defined( 'ABSPATH' ) || exit;
 /*
 Plugin Name: Comentino
 Plugin URI: https://shokrino.com/
-Description: Style the comments in wordpress fast and easy
-Author: Shokrino Team | Nias
+Description: Style the comments in WordPress fast and easy
+Author: <a href="https://shokrino.com/">Shokrino Team</a> & <a href="https://nias.ir">Nias</a>
 Version: 1.0.0
-Author URI: https://nias.ir
 Textdomain: comentino
 */
