@@ -15,9 +15,8 @@
     color: #0068ff;
 }
 
-.comment-list {
-    list-style: none;
-    padding: 0;
+.commentlist , .comment-list{
+    padding: 0!important;
 }
 
 .comment-body {
@@ -26,7 +25,7 @@
     border-radius: 15px;
     margin-bottom: 11px;
 }
-.comment-author img {
+.commentlist img.avatar.photo , .comment-list img.avatar.photo  {
     border-radius: 50%;
     border: 3px solid #d8d8d8;
     box-sizing: border-box;
@@ -84,7 +83,7 @@
     border-radius: 10px;
 }
 
-.children {
+.children , .commentlist , .comment-list{
     list-style: none;
 }
 
@@ -93,15 +92,15 @@
     background-color: #daecff3b;
 }
 
-.children .comment-body:before {
+.children:before{
     content: "";
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='389' viewBox='0 0 512 389' fill='none'%3E%3Cpath d='M511.887 16.89C491.75 181.349 355.007 306.56 190.734 313.786V350.852C190.734 379.008 175.394 389 162.262 389C152.695 389 142.992 384.148 133.43 374.586L17.496 258.652C-5.832 235.324 -5.832 197.367 17.496 174.039L133.43 58.105C142.992 48.543 152.695 43.691 162.262 43.691C175.398 43.691 190.734 53.684 190.734 81.84V121.477C209.422 125.125 228.364 126.969 247.204 126.969C340.699 126.969 429.559 81.824 484.902 6.207C486.295 4.30424 488.118 2.7567 490.221 1.68991C492.324 0.623121 494.65 0.0671084 497.008 0.0669861C499.131 0.0677177 501.23 0.5193 503.166 1.39185C505.101 2.26439 506.829 3.53802 508.236 5.12845C509.643 6.71888 510.695 8.58987 511.325 10.6176C511.954 12.6454 512.146 14.7827 511.887 16.89Z' fill='%230C70FF'/%3E%3C/svg%3E");
     width: 23px;
     height: 23px;
     position: absolute;
-    right: 45px;
     background-size: contain;
     background-repeat: no-repeat;
+    transform: translateX(30px);
 }
 
 div#respond {
@@ -154,7 +153,7 @@ textarea{
     font-family: unset;
 }
 
-input {
+#respond input ,#respond textarea {
     border: 1px solid #cfcfcf;
     border-radius: 15px;
     padding: 10px;

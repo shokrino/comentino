@@ -60,10 +60,9 @@
     
     #reviews #comments ol.commentlist li img.avatar {
         border-radius: 50%;
-        border: 3px solid #d8d8d8;
-        box-sizing: border-box;
-        right: 12px;
-        top: 7px;
+        border: 3px solid #d8d8d8!important;
+        right: 12px!important;
+        top: 7px!important;
     
     }
     
