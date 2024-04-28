@@ -105,17 +105,17 @@ function comentino_load_wc_styles_callback() {
     <label class="box-label">
         <input type="radio" name="comentino_load_wc_styles" value="wc-style1" <?php checked("wc-style1", $load_wc_styles); ?> />
         <span class="title-label">استایل اول</span>
-        <img src="http://localhost/wp/wp-content/uploads/2023/09/google-2.jpg" alt="">
+        <img src="<?php echo COMENTINO_ASSETS.'/img/style-1.webp'; ?>" alt="">
     </label>
     <label class="box-label">
         <input type="radio" name="comentino_load_wc_styles" value="wc-style2" <?php checked("wc-style2", $load_wc_styles); ?> />
         <span class="title-label">استایل دوم</span>
-        <img src="http://localhost/wp/wp-content/uploads/2023/09/google-2.jpg" alt="">
+        <img src="<?php echo COMENTINO_ASSETS.'/img/style-2.webp'; ?>" alt="">
     </label>
     <label class="box-label">
         <input type="radio" name="comentino_load_wc_styles" value="wc-style3" <?php checked("wc-style3", $load_wc_styles); ?> />
         <span class="title-label">استایل سوم</span>
-        <img src="http://localhost/wp/wp-content/uploads/2023/09/google-2.jpg" alt="">
+        <img src="<?php echo COMENTINO_ASSETS.'/img/style-3.webp'; ?>" alt="">
     </label>
     <style>
         .box-label {
@@ -127,7 +127,7 @@ function comentino_load_wc_styles_callback() {
             gap: 8px;
         }
         .box-label img {
-            max-width: 150px;
+            max-width: 400px;
             height: auto;
             border-radius: 15px;
         }
