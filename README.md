@@ -1,7 +1,3 @@
-Sure, here's a sample README.md for your plugin:
-
----
-
 # Comentino Plugin
 
 ## Description
