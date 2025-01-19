@@ -12,6 +12,9 @@ $plugin_data = get_file_data(__FILE__, array('Version' => 'Version'), false);
 $plugin_data_name = get_file_data(__FILE__, array('Plugin Name' => 'Plugin Name'), false);
 $plugin_version = $plugin_data['Version'];
 $plugin_name = $plugin_data_name['Plugin Name'];
+
+require(__DIR__.'/new-design/blog-comment.php');
+
 define('COMENTINO_NAME', $plugin_name);
 define('COMENTINO_VERSION', $plugin_version);
 define('COMENTINO_PATH' , WP_CONTENT_DIR.'/plugins'.'/comentino');
